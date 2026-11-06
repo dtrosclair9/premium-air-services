@@ -9,7 +9,7 @@ export default function PhotoStrip({ paths }: { paths: string[] }) {
         <li key={p.src} className="w-full max-w-[340px]">
           <figure>
             <Image src={p.src} alt={p.alt} width={p.width} height={p.height} sizes="(min-width: 400px) 340px, 100vw" className="h-auto w-full" />
-            <figcaption aria-hidden="true" className="mt-2 text-[16px] leading-snug text-muted">{p.alt}</figcaption>
+            <figcaption className="mt-2 text-[16px] font-semibold leading-snug text-ink">{p.caption}</figcaption>
           </figure>
         </li>
       ))}

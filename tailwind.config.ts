@@ -15,7 +15,7 @@ const config: Config = {
         surface: '#F3F3F3',
         line: '#D6D6D6',
         muted: '#595959',
-        accent: { DEFAULT: '#02337D', press: '#02275E' },
+        accent: { DEFAULT: '#0B57D0', press: '#0842A0' },
       },
       fontFamily: {
         sans: ['var(--font-source-sans)', 'system-ui', 'sans-serif'],
