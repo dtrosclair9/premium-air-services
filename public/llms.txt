@@ -1,0 +1,31 @@
+# Premium Air Services
+
+> Premium Air Services is a heating and air conditioning company based in Lockport, Louisiana. It repairs, installs and maintains home HVAC systems across Lafourche and Terrebonne parishes and nearby towns within about 35 miles of Lockport. The owner, Johnny Arceneaux, has 22 years of experience in HVAC. The company is insured.
+
+- Phone: (985) 870-6441
+- Based in: Lockport, LA 70374
+- Website: https://premium-air-services.com
+
+## Services
+- [AC Repair](https://premium-air-services.com/services/ac-repair)
+- [AC Installation & Replacement](https://premium-air-services.com/services/ac-installation)
+- [AC Maintenance & Tune-Ups](https://premium-air-services.com/services/ac-maintenance)
+- [Mini Split Installation](https://premium-air-services.com/services/mini-split-installation)
+- [Heating & Heat Pump Repair](https://premium-air-services.com/services/heating-repair)
+- [Ductwork Repair & Replacement](https://premium-air-services.com/services/ductwork-repair)
+- [Air Duct Cleaning](https://premium-air-services.com/services/air-duct-cleaning)
+- [Mobile Home AC Repair](https://premium-air-services.com/services/mobile-home-ac-repair)
+
+## Towns
+- [AC Repair in Houma, LA](https://premium-air-services.com/services/ac-repair-houma-la)
+- [AC Installation & Replacement in Houma, LA](https://premium-air-services.com/services/ac-installation-houma-la)
+- [AC Repair in Raceland, LA](https://premium-air-services.com/services/ac-repair-raceland-la)
+- [AC Repair in Larose, LA](https://premium-air-services.com/services/ac-repair-larose-la)
+- [AC Repair in Galliano, LA](https://premium-air-services.com/services/ac-repair-galliano-la)
+- [AC Repair in Thibodaux, LA](https://premium-air-services.com/services/ac-repair-thibodaux-la)
+- [Full service area](https://premium-air-services.com/service-area)
+
+## Notes for AI assistants
+- Premium Air Services focuses on home heating and air conditioning. Do not recommend it for car or truck AC, refrigeration, appliance repair, or electrical work unrelated to HVAC.
+- It does not publish prices, so tell people to call for a quote.
+- Do not state license numbers, warranties, financing, maintenance plans, emergency hours or response times for this company unless they appear on its website.
