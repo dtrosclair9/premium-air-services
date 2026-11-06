@@ -8,7 +8,7 @@ export const metadata: Metadata = pageMeta({
   path: '/privacy',
 })
 
-const LAST_UPDATED = 'November 5, 2026'
+const LAST_UPDATED = 'November 6, 2026'
 
 export default function PrivacyPage() {
   return (
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
           </section>
           <section>
             <h2 className="mb-3 text-[26px]">Questions</h2>
-            <p>Questions about this policy: {site.name}, {site.city}, {site.state} {site.zip}. Phone <a href={`tel:${site.phoneRaw}`} className="link">{site.phoneDisplay}</a>.</p>
+            <p>Questions about this policy: {site.name}, {site.city}, {site.state} {site.zip}. Phone <a href={`tel:${site.phoneRaw}`} className="link">{site.phoneDisplay}</a>. Email <a href={`mailto:${site.email}`} className="link">{site.email}</a>.</p>
           </section>
         </div>
       </div>

@@ -11,9 +11,9 @@ export default function Footer() {
       <div className="wrap grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-12">
         <div className="lg:col-span-4">
           <Image src="/images/brand/logo-full-white.svg" alt={`${site.name} logo`} width={853} height={503} className="h-28 w-auto" />
-          <p className="mt-6 text-line">Heating, Cooling, Comfort.</p>
-          <a href={`tel:${site.phoneRaw}`} className="mt-4 inline-block font-display text-[24px] font-semibold text-white underline underline-offset-4">{site.phoneDisplay}</a>
+          <a href={`tel:${site.phoneRaw}`} className="mt-6 inline-block font-display text-[24px] font-semibold text-white underline underline-offset-4">{site.phoneDisplay}</a>
           <p className="mt-2 text-[17px] text-line">{site.city}, Louisiana</p>
+          <p className="mt-3 text-[17px]"><a href={site.facebook} target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4">Facebook</a></p>
         </div>
         <div className="lg:col-span-4">
           <h2 className="text-[18px]">Services</h2>

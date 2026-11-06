@@ -3,7 +3,7 @@ import type { JobVideo } from '@/lib/videos'
 // Vertical phone videos. Nothing downloads until someone presses play.
 export default function VideoGrid({ videos }: { videos: JobVideo[] }) {
   return (
-    <ul className="flex flex-wrap gap-6">
+    <ul className={videos.length > 2 ? 'grid gap-6 sm:grid-cols-3' : 'flex flex-wrap gap-6'}>
       {videos.map((v) => (
         <li key={v.src} className="w-full max-w-[340px]">
           <figure>

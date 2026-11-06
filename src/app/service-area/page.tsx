@@ -16,9 +16,9 @@ export const metadata: Metadata = pageMeta({
 })
 
 const faqs: FAQ[] = [
-  { q: 'How far do you travel from Lockport?', a: 'About 35 miles. Road distance matters more than how close a place looks on a map, so call if you are near the edge.' },
-  { q: 'What if my town is not listed?', a: 'Call and tell us where you are. This list covers the places we most expect to go, and it is not every road we can reach.' },
-  { q: 'Do you go to Port Fourchon or Grand Isle?', a: 'They are beyond our usual 35 miles. Call us about your location and what you need.' },
+  { q: 'How far do you travel from Lockport?', a: 'About 35 miles. Road distance matters more than how close it looks on a map, so call if you’re near the edge.' },
+  { q: 'What if my town isn’t listed?', a: 'Give us a call. This list doesn’t cover every road we can reach.' },
+  { q: 'Do you go to Port Fourchon or Grand Isle?', a: 'They’re past our usual 35 miles. Call us and tell us what you need.' },
 ]
 
 export default function ServiceAreaPage() {
@@ -26,7 +26,7 @@ export default function ServiceAreaPage() {
     <>
       <PageHero
         eyebrow="Where we work"
-        title="HVAC Service Area: Lafourche, Terrebonne & Nearby"
+        title="HVAC Service Area: Lockport, Lafourche & Terrebonne"
         intro="Premium Air Services is based in Lockport and works within about 35 miles, up and down Bayou Lafourche and over into Terrebonne."
         crumbs={[{ name: 'Service area', path: '/service-area' }]}
       />
@@ -64,7 +64,7 @@ export default function ServiceAreaPage() {
       </section>
 
       <Faq faqs={faqs} heading="About our service area" />
-      <CtaBand heading="Not sure if we cover your address?" text="Give us a call and tell us where you are." />
+      <CtaBand heading="Not sure we cover your address?" text="Give us a call and tell us where you are." />
     </>
   )
 }

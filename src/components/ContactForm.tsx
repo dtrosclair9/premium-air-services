@@ -5,11 +5,10 @@ import { site } from '@/lib/site'
 
 type FormState = 'idle' | 'loading' | 'success' | 'error'
 
-// Needs Premium Air's own Formspree form. Until this is set, the form tells people
-// to call so a lead is never silently lost.
-const FORMSPREE_ENDPOINT = ''
+// If this is ever cleared, the form tells people to call so a lead is never silently lost.
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xoeezavv'
 
-const SERVICES = ['AC repair', 'New AC or replacement', 'Mini split', 'Heating or heat pump', 'AC maintenance', 'Ductwork', 'Air duct cleaning', 'Mobile home AC', 'Something else']
+const SERVICES = ['AC repair', 'New AC or replacement', 'Mini split', 'Heating or heat pump', 'AC maintenance', 'Ductwork', 'Mobile home AC', 'Something else']
 const SOURCES = ['Google', 'Facebook', 'Friend, family or neighbor', 'Saw your truck or a job you did', 'Worked with you before', 'Other']
 
 const field = 'w-full rounded border border-muted bg-white px-4 py-3 text-[18px] text-ink placeholder:text-muted focus:border-black'
@@ -48,7 +47,7 @@ export default function ContactForm() {
     return (
       <div role="status" className="bg-surface p-8">
         <p className="font-display text-[24px] font-semibold">Thanks, we got your message.</p>
-        <p className="mt-2 text-[18px] leading-[1.6]">We will get back to you. If your AC is down, call {site.phoneDisplay}.</p>
+        <p className="mt-2 text-[18px] leading-[1.6]">We’ll get back to you. If your AC is down, call {site.phoneDisplay}.</p>
       </div>
     )
   }

@@ -18,14 +18,13 @@ export function cityPagesFor(serviceSlug: string): CityPage[] {
 
 export const navGroups = [
   { id: 'cooling', label: 'Cooling', slugs: ['ac-repair', 'ac-installation', 'ac-maintenance', 'mini-split-installation'] },
-  { id: 'heating-air', label: 'Heating & Air', slugs: ['heating-repair', 'ductwork-repair', 'air-duct-cleaning', 'mobile-home-ac-repair'] },
+  { id: 'heating-air', label: 'Heating & Air', slugs: ['heating-repair', 'ductwork-repair', 'mobile-home-ac-repair'] },
 ]
 
 // [bracketed] words in section copy become internal links.
 export const inlineLinks: Record<string, string> = {
   'AC installation and replacement': '/services/ac-installation',
   'heating and heat pump page': '/services/heating-repair',
-  'duct repair': '/services/ductwork-repair',
   'AC replacement page': '/services/ac-installation',
   'mobile home AC page': '/services/mobile-home-ac-repair',
   'replacing the system': '/services/ac-installation-houma-la',

@@ -15,6 +15,8 @@ export function localBusinessSchema() {
     name: site.name,
     url: BASE_URL,
     telephone: site.phoneRaw,
+    email: site.email,
+    sameAs: [site.facebook],
     logo: abs('/images/brand/logo-full-black.svg'),
     image: abs('/images/og-image.jpg'),
     address: {

@@ -8,6 +8,8 @@ export const site = {
   owner: 'Johnny Arceneaux',
   phoneDisplay: '(985) 870-6441',
   phoneRaw: '+19858706441',
+  email: 'premiumairservices1@outlook.com',
+  facebook: 'https://www.facebook.com/profile.php?id=61593160182462',
   city: 'Lockport',
   state: 'LA',
   zip: '70374',

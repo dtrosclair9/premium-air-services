@@ -10,7 +10,7 @@ import { pageMeta } from '@/lib/site'
 import type { FAQ } from '@/lib/types'
 
 export const metadata: Metadata = pageMeta({
-  title: 'About Premium Air Services in Lockport, LA',
+  title: 'About Premium Air Services, HVAC in Lockport, LA',
   absoluteTitle: true,
   description:
     'Premium Air Services is an insured heating and air company in Lockport, LA. Owner Johnny Arceneaux has 22 years in HVAC. We serve homes across South Lafourche.',
@@ -18,9 +18,8 @@ export const metadata: Metadata = pageMeta({
 })
 
 const faqs: FAQ[] = [
-  { q: 'Who owns Premium Air Services?', a: 'Johnny Arceneaux owns the company.' },
-  { q: 'Where are you located?', a: 'We are based in Lockport, in Lafourche Parish, and go out to homes within about 35 miles.' },
-  { q: 'Are you insured?', a: 'Yes. Premium Air Services is insured.' },
+  { q: 'Where are you located?', a: 'We’re based in Lockport, in Lafourche Parish, and go out to homes within about 35 miles.' },
+  { q: 'Are you insured?', a: 'Yes.' },
   { q: 'What kinds of homes do you work on?', a: 'Site-built houses, mobile and manufactured homes, and spaces like additions, garages and shops.' },
 ]
 
@@ -44,8 +43,7 @@ export default function AboutPage() {
             <Image src="/images/work/premium-air-truck-window-logo.jpg" alt="Premium Air Services logo and phone number on the back window of a work truck" width={1200} height={1600} sizes="(min-width: 1024px) 400px, (min-width: 500px) 400px, 100vw" className="mt-8 h-auto w-full max-w-[400px]" />
           </div>
           <div className="prose-body lg:col-span-7">
-            <p>Your AC runs most of the year in South Louisiana. It has to deal with heat, heavy humidity and the occasional storm that leaves a house without power for days.</p>
-            <p>We work on homes in Lockport and nearby towns, from small repairs to new systems.</p>
+                        <p>Down here an AC runs through heavy humidity, and a bad storm can leave a house without power for days. We work on those systems every day in Lockport and the towns nearby.</p>
             <p>We work on central air, heat pumps, gas and electric heat, mini splits and ductwork. Our <Link href="/services" className="link">services page</Link> lists everything, and the <Link href="/service-area" className="link">service area page</Link> shows where we go.</p>
           </div>
         </div>

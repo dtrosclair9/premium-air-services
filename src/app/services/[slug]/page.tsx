@@ -24,6 +24,10 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   return pageMeta({ title: page.title, description: page.description, path: `/services/${slug}` })
 }
 
+function joinTowns(names: string[]) {
+  return names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}` : names.join('')
+}
+
 const defaultTowns = ['Lockport', 'Raceland', 'Larose', 'Cut Off', 'Galliano', 'Golden Meadow', 'Thibodaux', 'Houma']
 
 export default async function ServiceRoute({ params }: Params) {
@@ -54,9 +58,9 @@ export default async function ServiceRoute({ params }: Params) {
           cta={svc.cta}
           area={{
             heading: cities.length ? `${svc.navLabel} by town` : 'Where we work',
-            text: cities.length ? 'We have pages for these towns:' : `We are based in ${site.city} and work within about 35 miles.`,
+            text: cities.length ? 'By town:' : `We’re based in ${site.city} and work within about 35 miles.`,
             links: cities.map((c) => ({ label: c.h1, href: `/services/${c.slug}` })),
-            towns: defaultTowns,
+            towns: defaultTowns.filter((t) => t !== site.city),
           }}
         />
       </>
@@ -102,7 +106,7 @@ export default async function ServiceRoute({ params }: Params) {
         cta={city.cta}
         area={{
           heading: `Around ${city.city}`,
-          text: `From ${city.city} we also cover ${city.nearby.join(', ')}. More ${city.city} pages:`,
+          text: `Nearby, we also go to ${joinTowns(city.nearby.filter((t) => t !== site.city))}. Also see:`,
           links: [
             ...siblings.map((c) => ({ label: c.h1, href: `/services/${c.slug}` })),
             ...townLinks.filter((l) => l.href !== `/services/${city.slug}` && !siblings.some((s) => `/services/${s.slug}` === l.href)),

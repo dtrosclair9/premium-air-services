@@ -4,7 +4,7 @@ import { photo } from '@/lib/images'
 // Mixed sizes: the Facebook originals are only 414px square, so everything caps at 340px.
 export default function PhotoStrip({ paths }: { paths: string[] }) {
   return (
-    <ul className="flex flex-wrap items-start gap-6">
+    <ul className={paths.length > 2 ? 'grid items-start gap-6 sm:grid-cols-3' : 'flex flex-wrap items-start gap-6'}>
       {paths.map(photo).map((p) => (
         <li key={p.src} className="w-full max-w-[340px]">
           <figure>

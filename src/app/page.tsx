@@ -8,7 +8,6 @@ import Faq from '@/components/Faq'
 import CtaBand from '@/components/CtaBand'
 import JsonLd from '@/components/JsonLd'
 import { services, towns } from '@/lib/content'
-import { allPhotos } from '@/lib/images'
 import { jobVideos } from '@/lib/videos'
 import { howToSchema, localBusinessSchema, ownerSchema, websiteSchema } from '@/lib/schema'
 import { pageMeta, site } from '@/lib/site'
@@ -31,29 +30,30 @@ export const metadata: Metadata = {
 }
 
 const steps = [
-  { name: 'Call us', text: 'Tell us your address, what kind of system you have if you know it, and what it is doing.' },
-  { name: 'We look at the system', text: 'We check it over to find what is wrong.' },
-  { name: 'You choose what to do', text: 'We go over your options. On an older system, that can include comparing a repair with a replacement.' },
+  { name: 'Call us', text: 'Tell us your address, what kind of system you’ve got if you know it, and what it’s doing.' },
+  { name: 'We look at the system', text: 'We check it over and find what’s wrong.' },
+  { name: 'You choose what to do', text: 'We go over your options. On an older system, that can mean weighing a repair against a new unit.' },
   { name: 'We do the work', text: 'Once you decide, we make the repair or install the new equipment.' },
 ]
 
 const symptoms = [
   { title: 'Blowing warm air', text: 'Often a dirty filter, a frozen coil or a part that failed at the outdoor unit.', href: '/services/ac-repair' },
-  { title: 'Water around the indoor unit', text: 'Usually a clogged drain line. Turn the system off so the water does not reach your ceiling or floor.', href: '/services/ac-repair' },
+  { title: 'Water around the indoor unit', text: 'Usually a clogged drain line. Turn the system off before the water reaches your ceiling or floor.', href: '/services/ac-repair' },
   { title: 'One room never cools', text: 'Could be a kinked or leaking duct, or a space the system was never set up to reach.', href: '/services/ductwork-repair' },
-  { title: 'Old unit, repeat repairs', text: 'At some point, a new system starts to make more sense than another repair.', href: '/services/ac-installation' },
+  { title: 'Old unit, repeat repairs', text: 'At some point, a new system beats another repair.', href: '/services/ac-installation' },
 ]
 
 const faqs: FAQ[] = [
-  { q: 'What areas does Premium Air Services cover?', a: 'We are based in Lockport and work within about 35 miles, including Larose, Raceland, Galliano, Cut Off, Golden Meadow, Thibodaux and Houma. If you are not sure about your address, give us a call.' },
-  { q: 'How much does AC repair cost?', a: 'It depends on what failed and what your system needs. A part like a capacitor and a major repair like a compressor are very different jobs. Call us and describe what is going on.' },
-  { q: 'How much does a new AC unit cost?', a: 'Size, efficiency, the type of system and the condition of your ducts all change the price. We would need to know about your house to give you a real number.' },
-  { q: 'Do you work on heat pumps and gas heat?', a: 'Yes. We work on heat pumps, electric heat strips and gas furnaces along with central air.' },
-  { q: 'Do you install mini splits?', a: 'Yes. They are a good fit for additions, garages, shops and rooms your main system does not reach.' },
+  { q: 'What areas does Premium Air Services cover?', a: 'We’re based in Lockport and work within about 35 miles, including Larose, Raceland, Galliano, Cut Off, Golden Meadow, Thibodaux and Houma. Not sure about your address? Give us a call.' },
+  { q: 'How much does AC repair cost?', a: 'It depends on what failed. A capacitor and a compressor are very different jobs. Call and tell us what the system’s doing, and we’ll go from there.' },
+  { q: 'How much does a new AC unit cost?', a: 'Size, efficiency, the type of system and the shape your ducts are in all change the price. Give us a call about your house. Estimates on new systems are free, and we offer financing.' },
+  { q: 'Do you work on heat pumps and gas heat?', a: 'Yes, along with electric heat strips and central air.' },
+  { q: 'Do you install mini splits?', a: 'Yes. They’re a good fit for additions, garages, shops and rooms your main system can’t reach.' },
   { q: 'Do you work on mobile homes?', a: 'Yes. On many of them the ducts run under the floor, so we check there too.' },
   { q: 'Why is my AC freezing up?', a: 'Weak airflow from a dirty filter or coil is the most common cause, and low refrigerant is another. Turn off the cooling, run the fan to thaw it, and put in a clean filter. If it freezes again, call us.' },
-  { q: 'How often should I change my AC filter?', a: 'Check it every month during the cooling season and change it when it looks dirty. Pets and dust can mean more frequent changes.' },
-  { q: 'Is Premium Air Services insured?', a: 'Yes, we are insured.' },
+  { q: 'Do you do AC tune-ups?', a: 'Yes, and we offer a yearly maintenance plan. Spring is the best time, before the summer rush.' },
+  { q: 'Do you take emergency calls?', a: 'Yes, including after hours.' },
+  { q: 'Is Premium Air Services insured?', a: 'Yes, we’re insured.' },
 ]
 
 export default function HomePage() {
@@ -65,16 +65,16 @@ export default function HomePage() {
         size="home"
         eyebrow="Lockport, Louisiana"
         title="AC Repair & Installation in Lockport, LA"
-        intro="Premium Air Services keeps homes cool and comfortable across Lafourche and Terrebonne. Owner Johnny Arceneaux has spent 22 years in HVAC."
+        intro="AC and heating repair and new systems for homes in Lockport, Lafourche and Terrebonne. Owner Johnny Arceneaux has spent 22 years in HVAC."
         image="/images/hero/johnny-and-son.jpg"
         imageAlt="Owner Johnny Arceneaux with his arm around his son, both in black Premium Air Services polo shirts"
       />
 
       <section className="section border-b border-line" aria-labelledby="problem-h">
         <div className="wrap">
-          <h2 id="problem-h" className="max-w-3xl text-[32px] leading-[1.15] lg:text-[40px]">What is your system doing?</h2>
+          <h2 id="problem-h" className="max-w-3xl text-[32px] leading-[1.15] lg:text-[40px]">What’s your system doing?</h2>
           <p className="mt-5 max-w-3xl text-[18px] leading-[1.6]">
-            Most calls start with one of these. If yours is something else, or you cannot tell what is wrong, call us anyway and describe it the best you can.
+            Most calls start with one of these. If yours is something else, or you can’t tell what’s wrong, call us anyway and describe it the best you can.
           </p>
           <ul className="mt-10 grid gap-px border-y border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
             {symptoms.map((s) => (
@@ -93,11 +93,11 @@ export default function HomePage() {
         <div className="wrap">
           <h2 id="services-h" className="mb-5 text-[32px] leading-[1.15] lg:text-[40px]">Heating and air conditioning services</h2>
           <p className="mb-10 max-w-3xl text-[18px] leading-[1.6]">
-            We handle repairs, new systems and upkeep for homes in South Lafourche and the towns around it, from a single room to the whole house.
+            We fix, replace and maintain home heating and air systems across South Lafourche.
           </p>
           <ServiceIndex items={core} />
           <p className="mt-8 text-[17px]">
-            <Link href="/services" className="link">See all of our services</Link>, including duct cleaning and mobile home AC.
+            <Link href="/services" className="link">See all of our services</Link>, including mobile home AC.
           </p>
         </div>
       </section>
@@ -109,11 +109,18 @@ export default function HomePage() {
           </div>
           <div className="space-y-5 text-[18px] leading-[1.6] lg:col-span-6">
             <p>
-              Premium Air Services is based right here in Lockport and is insured.
+              Johnny runs Premium Air Services out of Lockport. We’re insured.
             </p>
             <p>
-              ACs run for most of the year here, in heavy humidity, and storms can leave a house closed up for days. Our service pages cover what that does to a system.
+              ACs run most of the year here in heavy humidity, and storms can leave a house closed up for days. Johnny’s seen what that does to a system.
             </p>
+            <ul className="list-disc space-y-2 pl-6">
+              <li>Emergency and after-hours calls</li>
+              <li>Free estimates on new systems</li>
+              <li>Financing available</li>
+              <li>10 years on parts and 2 years on labor</li>
+              <li>Yearly maintenance plan</li>
+            </ul>
             <p><Link href="/about" className="link">More about Premium Air Services</Link></p>
           </div>
         </div>
@@ -142,7 +149,7 @@ export default function HomePage() {
           </p>
           <VideoGrid videos={[jobVideos.systemChangeout, jobVideos.furnaceReplacement, jobVideos.blowerBuildup]} />
           <div className="mt-10">
-            <PhotoStrip paths={allPhotos.slice(0, 3).map((p) => p.src)} />
+            <PhotoStrip paths={['/images/work/condenser-on-stand-white-siding.jpg', '/images/work/new-air-handler-closet.jpg', '/images/work/mini-split-outdoor-white-siding.jpg']} />
           </div>
         </div>
       </section>
@@ -153,9 +160,9 @@ export default function HomePage() {
             <h2 id="heat-h" className="text-[32px] leading-[1.15] lg:text-[40px]">How do I keep my AC running through a Louisiana summer?</h2>
           </div>
           <div className="prose-body lg:col-span-7">
-            <p>Keep the filter clean, keep the outdoor unit clear and have the system checked before the heat arrives.</p>
+            <p>Stay on top of the filter and have the system checked before the heat arrives.</p>
             <p>Keep plants and yard debris a couple of feet from the outdoor unit, and aim your mower away from it. If you see water near the indoor unit or the air feels weak, deal with it before it turns into a bigger repair.</p>
-            <p>Spring is the best time to schedule <Link href="/services/ac-maintenance" className="link">AC maintenance</Link>.</p>
+            <p>Spring is the time to schedule <Link href="/services/ac-maintenance" className="link">AC maintenance</Link>.</p>
           </div>
         </div>
       </section>

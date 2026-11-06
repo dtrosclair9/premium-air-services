@@ -3,7 +3,7 @@ import { site } from '@/lib/site'
 
 type Props = { heading?: string; text?: string }
 
-export default function CtaBand({ heading = 'Need your AC looked at?', text = 'Call Premium Air Services and tell us what is going on.' }: Props) {
+export default function CtaBand({ heading = 'Need your AC looked at?', text = 'Call Premium Air Services and tell us what’s going on.' }: Props) {
   return (
     <section className="on-dark bg-black text-white">
       <div className="wrap flex flex-col gap-8 py-12 md:py-16 lg:flex-row lg:items-center lg:justify-between">

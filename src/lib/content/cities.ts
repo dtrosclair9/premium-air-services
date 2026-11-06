@@ -1,8 +1,7 @@
 import type { CityPage } from '../types'
 
 // Each town page is written for that town. Distances are rough road estimates
-// from research, always said as "about". No claims about past local jobs until
-// Johnny gives us real ones.
+// from research, always said as "about".
 
 export const cityPages: CityPage[] = [
   {
@@ -16,29 +15,29 @@ export const cityPages: CityPage[] = [
     h1: 'AC Repair in Houma, LA',
     eyebrow: 'Terrebonne Parish',
     intro: [
-      'We repair home air conditioners across Houma, including Bayou Cane, Bayou Blue and Gray. Our base in Lockport is about 19 miles away.',
-      'Terrebonne has its own mix of storm damage, older houses and mobile homes, and each one can change what is wrong with the AC.',
+      'We’re about 19 miles away in Lockport, and we fix home air conditioners all over Houma, including Bayou Cane, Bayou Blue and Gray.',
+      'Storm water and old ductwork are behind a lot of AC trouble in Terrebonne.',
     ],
     sections: [
       {
         h2: 'Is my outdoor unit safe to run after high water?',
         body: [
-          'Not if water reached it. Francine made landfall in Terrebonne Parish in September 2024, and low spots around Houma are always a concern in a storm like that. Look for a water line, mud on the coil or a shifted pad before you touch the thermostat.',
-          'Wet electrical parts can damage the system and are a safety hazard, so leave it off until someone has checked them. Saltwater does the most harm, since it stays on the coil and controls after it dries.',
+          'Not if water reached it. In a storm like Francine in 2024, low spots around Houma are the first worry. Look for a water line, mud on the coil or a shifted pad before you touch the thermostat.',
+          'Wet electrical parts are a safety hazard and can ruin the system, so leave it off until someone has checked them. Saltwater is the worst of it, since the salt stays on the coil and controls after the water dries.',
         ],
       },
       {
         h2: 'Why do mobile homes in Terrebonne have different AC problems?',
         body: [
-          'Roughly one home in six or seven in the parish is a mobile home, and their ducts usually run under the floor. A torn belly or loose crossover duct can dump your cool air under the house, even when the AC itself works fine.',
-          'We have a separate [mobile home AC page] on those problems. If one end of your home stays warm, that is a good place to start.',
+          'Roughly one home in six or seven in the parish is a mobile home, and their ducts usually run under the floor. A torn belly or loose crossover duct can dump your cold air under the house even when the AC itself works fine.',
+          'If one end of your home stays warm, read our [mobile home AC page] and give us a call.',
         ],
       },
       {
         h2: 'What if my Houma home is older?',
         body: [
-          'A lot of Houma homes are 40 years old or more. Many have had several AC systems over the years, sometimes on ducts that were never replaced. If you keep repairing the system and the house is still uncomfortable, check the ducts.',
-          'A system old enough to use R-22 refrigerant is also worth thinking through if it develops a leak. Before paying for a big repair on one of those, ask about [replacing the system] too.',
+          'Plenty of homes around Houma are 40 years old or more, and they’ve been through several AC systems, sometimes on the same original ducts. If you keep fixing the AC and the house still isn’t comfortable, the ducts are the next place to look.',
+          'If a system old enough to use R-22 refrigerant springs a leak, a big repair gets harder to justify. Ask about [replacing the system] before you pay for one.',
         ],
       },
     ],
@@ -53,11 +52,11 @@ export const cityPages: CityPage[] = [
     nearby: ['Bayou Cane', 'Bayou Blue', 'Gray', 'Schriever', 'Bourg'],
     gallery: [],
     faqs: [
-      { q: 'Do you come out to east Houma and Bayou Blue?', a: 'Yes. Both are within our service area.' },
-      { q: 'Do you work in Bayou Cane and Gray too?', a: 'Yes. Both are part of the area we cover around Houma, even though Bayou Cane sits outside the city limits.' },
-            { q: 'Do you also install new systems in Houma?', a: 'Yes. We have a separate page on AC installation and replacement in Houma, and a repair call can help you decide if a replacement makes more sense.' },
+      { q: 'Do you come out to east Houma and Bayou Blue?', a: 'Yes, we go out to both.' },
+      { q: 'I’m in Bayou Cane, outside the city limits. Is that a problem?', a: 'No. We work in Bayou Cane and Gray the same as Houma itself.' },
+      { q: 'Do you also install new systems in Houma?', a: 'Yes. If a repair call shows a new system is the smarter move, we’ll go over that with you. Our Houma AC installation page has more.' },
     ],
-    cta: { heading: 'AC out in Houma?', text: 'We cover Houma, Bayou Cane, Bayou Blue and Gray.' },
+    cta: { heading: 'AC out in Houma?', text: 'We work all over Houma, Bayou Cane, Bayou Blue and Gray.' },
   },
   {
     slug: 'ac-installation-houma-la',
@@ -71,28 +70,28 @@ export const cityPages: CityPage[] = [
     eyebrow: 'New systems in Terrebonne Parish',
     intro: [
       'We install new air conditioning systems in Houma, Bayou Cane, Bayou Blue and Gray.',
-      'Central air, a heat pump or a mini split can each make sense, depending on your house.',
+      'That might be central air, a heat pump or a mini split, depending on your house.',
     ],
     sections: [
       {
         h2: 'Should I raise my new AC unit in Houma?',
         body: [
-          'It depends on your lot and your flood risk. Many homes around Houma have outdoor units on stands or raised pads because of heavy rain and storm surge. A unit that sits low can be ruined by one bad flood.',
-          'Your flood zone and any parish requirements also matter, so check those if you are replacing a unit after a storm. The stand needs to be solid and secured, and the unit needs room to get air.',
+          'If your lot takes water, yes. Plenty of homes around Houma have outdoor units on stands or raised pads because of heavy rain and storm surge, and one bad flood can ruin a unit sitting low.',
+          'Find out your flood zone and any parish requirements if you’re replacing a unit after a storm. The stand needs to be solid and secured, with room around the unit for air.',
         ],
       },
       {
         h2: 'How do I choose a system for an older Terrebonne home?',
         body: [
-          'Older homes often have less insulation, leakier windows and ducts that were sized for a different system. If your house was built in the 1970s or 1980s and the old unit always struggled, simply matching its size may not fix anything.',
-          'It helps to think about where the house has changed. Added rooms, new windows or extra attic insulation can all change what size you need, and the ducts should be part of the conversation.',
+          'Don’t just match the old unit. Houses from the 1970s and 1980s often have less insulation, leakier windows and ducts sized for a different system. If the old unit always struggled, the same size won’t fix anything.',
+          'Think about what’s changed, too. Added rooms, new windows or more attic insulation all change what size you need. Look at the ducts while you’re at it.',
         ],
       },
       {
         h2: 'Is a mini split a better fit for part of my Houma house?',
         body: [
-          'For a converted garage, a new addition or a backyard shop, a mini split often makes more sense than extending old ductwork. It also keeps your main system from having to carry extra space.',
-          'For the rest of the house, central air usually remains the simple choice when good ducts are already in place. Our [mini split page] goes over where they work and where they do not.',
+          'For a converted garage, a new addition or a backyard shop, usually. It’s simpler than extending old ductwork, and your main system doesn’t have to carry the extra space.',
+          'If the rest of the house already has good ducts, stick with central air there. Our [mini split page] goes over where they work and where they don’t.',
         ],
       },
     ],
@@ -105,11 +104,11 @@ export const cityPages: CityPage[] = [
     nearby: ['Bayou Cane', 'Bayou Blue', 'Gray', 'Schriever'],
     gallery: ['/images/work/condenser-on-stand-white-siding.jpg'],
     faqs: [
-            { q: 'How do I know if my old unit was ruined by a flood?', a: 'If water reached the electrical parts or the base of the unit, have it inspected before you run it. Saltwater is especially hard on coils and controls.' },
-      { q: 'Can I put a new AC on my old ductwork?', a: 'Sometimes. It depends on the condition and size of the ducts. Old flex duct that is torn or undersized can hold back a new system.' },
-      { q: 'Do you install heat pumps in Houma?', a: 'Yes. Heat pumps are a common choice for all-electric homes here because of our mild winters.' },
+      { q: 'How do I know if my old unit was ruined by a flood?', a: 'If water reached the electrical parts or the base of the unit, don’t run it until it’s been inspected. Saltwater is especially hard on coils and controls.' },
+      { q: 'Can I put a new AC on my old ductwork?', a: 'If the ducts are in good shape and the right size, yes. Old flex duct that’s torn or undersized will hold a new system back.' },
+      { q: 'Do you install heat pumps in Houma?', a: 'Yes. With our mild winters, they’re a popular choice for all-electric homes.' },
     ],
-    cta: { heading: 'Replacing an AC in Houma?', text: 'We can quote your home in Houma, Bayou Cane, Bayou Blue or Gray.' },
+    cta: { heading: 'Replacing an AC in Houma?', text: 'We install in Houma, Bayou Cane, Bayou Blue and Gray.' },
   },
   {
     slug: 'ac-repair-raceland-la',
@@ -122,28 +121,29 @@ export const cityPages: CityPage[] = [
     h1: 'AC Repair in Raceland, LA',
     eyebrow: 'Lafourche Parish',
     intro: [
-      'Raceland is one of the closest towns to Lockport, about 8 miles up the road. We repair home air conditioners here and in Mathews and Gheens.',
+      'Raceland is one of the closest towns to us, about 8 miles up the road from Lockport. We work on home AC here and in Mathews and Gheens.',
       'Most calls are for an AC that stopped cooling, started leaking or began making a new noise.',
     ],
     sections: [
       {
         h2: 'Why does my Raceland house feel sticky on wet days?',
         body: [
-          'High humidity makes your system work harder, since part of its job is pulling water out of the air. A house with wet ground around it, a damp crawl space or a leaky duct can bring in more moisture than the AC can keep up with.',
-          'If your house is on piers, check under it for standing water and torn ducts. If your house feels sticky even when the thermostat says the right temperature, moisture may be the real problem.',
+          'Part of your AC’s job is pulling water out of the air, and on wet days it’s got a lot more to pull. Wet ground around the house, a damp crawl space or a leaky duct can bring in more moisture than it can keep up with.',
+          'If the thermostat says the right temperature and the house still feels damp, moisture is your real problem, and that’s worth a call.',
         ],
       },
       {
         h2: 'What about outdoor units near fields and yards?',
         body: [
-          'Cane dust, grass clippings and cottonwood fluff can coat the outdoor coil until the unit struggles to shed heat. It can happen slowly, and you may only notice when the first hot week arrives.',
-          'With the power off, you can rinse the coil gently with a garden hose. If the coil looks packed or the unit is still running hot, have it cleaned properly. Our [maintenance page] lists what else to check.',
+          'Cane dust, grass clippings and cottonwood fluff coat the outdoor coil until the unit can’t shed heat. It builds up slowly, and most people don’t notice until the first hot week.',
+          'With the power off, rinse the coil with a garden hose. If it’s still packed or the unit keeps running hot, it needs a real cleaning. Our [maintenance page] lists what else to look at.',
         ],
       },
       {
-        h2: 'What should I tell you when I call from Raceland?',
+        h2: 'What if my Raceland house sits on piers?',
         body: [
-          'Let us know your road, the age of the system if you know it, and what you have noticed. Things like ice on the lines, water in the closet, a hum from the outdoor unit or a tripped breaker all help us understand what is going on.',
+          'Get under there with a flashlight if you can do it safely. Standing water under the house keeps the air damp, and ducts hanging low get torn or knocked loose.',
+          'A torn duct under the floor blows cooled air into the dirt. If the floor feels cold or the rooms on one end run warm, that’s usually where to look.',
         ],
       },
     ],
@@ -158,11 +158,11 @@ export const cityPages: CityPage[] = [
     nearby: ['Mathews', 'Gheens', 'Lockport', 'Des Allemands'],
     gallery: [],
     faqs: [
-      { q: 'Do you cover Mathews and Gheens?', a: 'Yes. Both are in our service area.' },
-      { q: 'Why does my house feel sticky even with the AC on?', a: 'Possible causes include an oversized system, leaky ducts, dirty coils or a fan set to run all the time. It helps to set the fan to auto first, then call if it stays sticky.' },
-      { q: 'Should I hose off my outdoor unit?', a: 'A gentle rinse with the power off is fine. Keep the water pressure low so you do not bend the fins.' },
+      { q: 'Do you cover Mathews and Gheens?', a: 'Yes, and they’re both close to us.' },
+      { q: 'Should the AC fan be set to on or auto?', a: 'Auto. With the fan left on, water that collected on the coil gets blown back into the house. If it’s on auto and still feels damp, call us.' },
+      { q: 'How much pressure is too much when I rinse my outdoor unit?', a: 'Anything stronger than a garden hose is too much. The fins bend easily, and flattened fins block air the same as dirt does.' },
     ],
-    cta: { heading: 'Need AC help in Raceland?', text: 'We are close by in Lockport.' },
+    cta: { heading: 'Need AC help in Raceland?', text: 'We’re close by in Lockport.' },
   },
   {
     slug: 'ac-repair-larose-la',
@@ -175,29 +175,29 @@ export const cityPages: CityPage[] = [
     h1: 'AC Repair in Larose, LA',
     eyebrow: 'Along Bayou Lafourche',
     intro: [
-      'Larose sits where Bayou Lafourche meets the Intracoastal Waterway, about 13 miles down the bayou from Lockport. We repair home air conditioners here and in nearby Cut Off.',
-      'Being this close to the water, and having to leave for storms, both affect how an AC holds up.',
+      'Larose sits where Bayou Lafourche meets the Intracoastal Waterway, about 13 miles down the bayou from Lockport. We repair AC systems here and in nearby Cut Off.',
+      'Salt air wears on an outdoor unit, and so do the storms that keep shutting it down.',
     ],
     sections: [
       {
         h2: 'How does being close to the water affect an AC in Larose?',
         body: [
-          'Moist air and salt in the breeze both wear on outdoor units over time. You may see rust on the cabinet, screws and base pan, or a coil that starts to look flaky. It often creeps up slowly, then shows itself as a leak or a failed part.',
-          'A gentle freshwater rinse on the coil with the power off can help slow it down. If your unit already shows heavy rust, ask us to look at the coil and electrical parts when we are out.',
+          'Moist air and salt in the breeze eat at outdoor units over time. You’ll see rust on the cabinet, screws and base pan, or a coil that starts to look flaky. It creeps up slowly, then shows itself as a leak or a failed part.',
+          'If your unit’s already got heavy rust, have us look at the coil and electrical parts while we’re out there.',
         ],
       },
       {
         h2: 'What should I do with my AC when evacuating?',
         body: [
-          'Before you leave for a storm, turn the system off at the thermostat and at the breaker. That helps protect it from power surges. Move loose items away from the outdoor unit, since they can become projectiles in high wind.',
-          'When you come back, look the unit over before you turn the breaker back on. A closed-up house with no air gets humid fast, so try to get it cooling as soon as it is safe.',
+          'Before you leave, turn the system off at the thermostat and at the breaker to protect it from power surges. Move anything loose away from the outdoor unit, since high wind can throw it right into the coil.',
+          'When you come back, look the unit over before you flip the breaker on. A closed-up house with no air gets humid fast, so get it cooling as soon as it’s safe.',
         ],
       },
       {
         h2: 'Why does my AC keep tripping the breaker?',
         body: [
-          'A breaker that trips repeatedly may point to a failing compressor, a bad fan motor, a short or a weak breaker. Resetting it once is fine, but do not keep doing it. Repeated resets can make the damage worse.',
-          'Leave it off. It helps to know whether the breaker trips right away or after the system has run for a while.',
+          'A breaker that keeps tripping points to a failing compressor, a bad fan motor, a short or a weak breaker. Reset it once. If it trips again, stop, because repeated resets make the damage worse.',
+          'Leave it off and call us. Tell us if it trips right away or after the system’s been running a while.',
         ],
       },
     ],
@@ -212,9 +212,9 @@ export const cityPages: CityPage[] = [
     nearby: ['Cut Off', 'Galliano', 'Lockport', 'Bourg'],
     gallery: [],
     faqs: [
-      { q: 'Do you work in Cut Off?', a: 'Yes. Cut Off is just down the road from Larose and is part of the area we cover.' },
-      { q: 'Should I cover my outdoor unit before a storm?', a: 'A cover is not usually necessary, and trapping moisture can cause its own problems. Moving loose objects and turning off the power are the more useful steps.' },
-      { q: 'Can a rusty outdoor unit be saved?', a: 'Surface rust on the cabinet is mostly cosmetic. A rusted-through base or corroded coil is more serious, and the unit’s age helps decide if a repair is worth it.' },
+      { q: 'Do you work in Cut Off?', a: 'Yes. It’s just down the road from Larose.' },
+      { q: 'Should I cover my outdoor unit before a storm?', a: 'No need, and a cover can trap moisture. Move loose objects and shut off the power instead.' },
+      { q: 'Can a rusty outdoor unit be saved?', a: 'Surface rust on the cabinet is mostly cosmetic. A rusted-through base or corroded coil is more serious, and the age of the unit decides if it’s worth fixing.' },
     ],
     cta: { heading: 'AC trouble in Larose?', text: 'We work in Larose and Cut Off.' },
   },
@@ -229,29 +229,29 @@ export const cityPages: CityPage[] = [
     h1: 'AC Repair in Galliano, LA',
     eyebrow: 'Lower Lafourche',
     intro: [
-      'We repair home air conditioners in Galliano, Cut Off and Golden Meadow, about 24 miles down the bayou from Lockport.',
+      'We make the drive about 24 miles down the bayou from Lockport to fix air conditioners in Galliano, Cut Off and Golden Meadow.',
       'Lower Lafourche gets more wind and salt than most of the parish, and outdoor units show it.',
     ],
     sections: [
       {
         h2: 'How do I get my AC ready after a long power outage?',
         body: [
-          'After Ida, parts of Lafourche went weeks without power, and many homes sat hot and closed up. When your power comes back, look over the outdoor unit and the line set before you turn on the AC.',
-          'Check for a shifted unit, torn insulation on the lines, and damage to the disconnect box. If everything looks okay, start it and listen. A system that hums, trips the breaker or fails to cool should be turned back off until it is checked.',
+          'Look the unit over before you turn anything on. After Ida, parts of Lafourche went weeks without power, and a lot of homes sat hot and closed up. Look for a shifted unit, torn insulation on the line set (the copper lines running to the house) and damage to the disconnect box.',
+          'If it all looks okay, start it and listen. If it hums, trips the breaker or won’t cool, shut it back off and call.',
         ],
       },
       {
         h2: 'Should my outdoor unit be up on a stand down here?',
         body: [
-          'Many homes on lower Lafourche are raised, and outdoor units often are too. A unit on a platform has less exposure to water, but it should be well secured against wind, and you should be able to safely reach it for service.',
-          'Check the stand as well as the unit after a storm. Fix loose straps or a rusted frame before the next storm.',
+          'Most of the time, yes. A lot of homes on lower Lafourche are raised, and the outdoor units go up with them. A unit on a platform sees less water, but it has to be secured against wind and safe to reach for service.',
+          'After a storm, look at the stand as well as the unit. Fix loose straps or a rusted frame before the next one.',
         ],
       },
       {
         h2: 'Why does my camp or raised house feel humid?',
         body: [
-          'A home that sits empty part of the time can get sticky quickly with the AC off. Raised floors with torn ducts can also pull humid air in. Before a long absence, ask about a safe thermostat setting so moisture does not build up.',
-          'For small spaces and additions, a [mini split] may make more sense than running ducts under a raised floor.',
+          'A place that sits empty with the AC off gets damp quickly. Torn ducts under a raised floor pull in humid air on top of that.',
+          'For small spaces and additions, a [mini split] is often simpler than running ducts under a raised floor.',
         ],
       },
     ],
@@ -266,12 +266,12 @@ export const cityPages: CityPage[] = [
     nearby: ['Cut Off', 'Golden Meadow', 'Larose'],
     gallery: [],
     faqs: [
-      { q: 'Do you go as far as Golden Meadow?', a: 'Yes. Golden Meadow is within our service area. Give us your address when you call.' },
-      { q: 'Will salt air shorten the life of my AC?', a: 'It can, especially close to open water. Rinsing the coil gently and getting rust looked at early can help you get more years from the unit.' },
-      { q: 'What thermostat setting should I use for an empty house?', a: 'Many people leave the AC set a few degrees warmer rather than off, so the house still gets some moisture removal. The right setting depends on your house and how long you will be gone.' },
-      { q: 'Can you check my AC before storm season?', a: 'Yes. Spring is a good time, before hurricane season starts.' },
+      { q: 'Do you go as far as Golden Meadow?', a: 'Yes. Give us your address when you call.' },
+      { q: 'Will salt air shorten the life of my AC?', a: 'It will, especially close to open water. Getting rust looked at early buys you more years out of the unit.' },
+      { q: 'What thermostat setting should I use for an empty house?', a: 'Set it a few degrees warmer instead of turning it off, so the system still pulls some moisture out. How warm depends on the house and how long you’ll be gone.' },
+      { q: 'Can you check my AC before storm season?', a: 'Yes. Call in the spring, before hurricane season starts.' },
     ],
-    cta: { heading: 'Live down the bayou?', text: 'We cover Galliano, Cut Off and Golden Meadow.' },
+    cta: { heading: 'Live down the bayou?', text: 'We go to Galliano, Cut Off and Golden Meadow.' },
   },
   {
     slug: 'ac-repair-thibodaux-la',
@@ -280,32 +280,32 @@ export const cityPages: CityPage[] = [
     parish: 'Lafourche Parish',
     title: 'Air Conditioning Repair in Thibodaux, LA',
     description:
-      'Need AC repair in Thibodaux? Premium Air Services repairs home air conditioners in Thibodaux, Lafourche Crossing and Schriever. Call us to schedule.',
+      'Need AC repair in Thibodaux? Premium Air Services repairs home air conditioners in Thibodaux, Lafourche Crossing, Schriever and Chackbay. Call us to schedule.',
     h1: 'AC Repair in Thibodaux, LA',
     eyebrow: 'Up the bayou from Lockport',
     intro: [
-      'We repair home air conditioners in Thibodaux, Lafourche Crossing and Schriever. Thibodaux is about 23 miles from Lockport.',
-      'Thibodaux has a lot of older houses near downtown and rentals around Nicholls State, and each has its own common AC problems.',
+      'We fix home air conditioners in Thibodaux, Lafourche Crossing and Schriever. Thibodaux is about 23 miles from Lockport.',
+      'Between the older houses near downtown and the rentals around Nicholls State, this town has its own set of AC headaches.',
     ],
     sections: [
       {
         h2: 'What AC problems are common in older Thibodaux homes?',
         body: [
-          'Older houses were not built around central air, so ducts were often added later wherever they would fit. Long runs, tight turns and a return that is too small can leave back rooms warm and make the system work harder.',
-          'If your home has high ceilings or lots of windows, the system may also be fighting more heat than its size suggests. [Ductwork] is worth a look before you assume the AC itself has failed.',
+          'Airflow, mostly. Older houses weren’t built around central air, so the ducts went wherever they’d fit. Long runs, tight turns and a return that’s too small leave the back rooms warm and make the system work harder.',
+          'High ceilings and a lot of windows add heat too, so a unit can fall behind even if it looks big enough. [Ductwork] is the first thing to look at before you assume the AC itself has failed.',
         ],
       },
       {
         h2: 'What should landlords near Nicholls State know?',
         body: [
-          'Rentals tend to run filters too long, and a clogged filter leads to frozen coils and service calls. Giving tenants a filter schedule, or changing filters yourself, prevents a lot of them. A drain line flush before the fall semester also helps.',
+          'Tenants leave filters in too long, and a clogged filter means a frozen coil and a service call. Hand them a filter schedule or change the filters yourself, and you’ll head off a lot of those. Flush the drain line before the fall semester too.',
         ],
       },
       {
         h2: 'What should I do if my AC stops on a hot afternoon?',
         body: [
-          'Check the filter, the thermostat and the breaker first. If there is ice on the lines, turn cooling off and run the fan so it can thaw. If the outdoor fan is not spinning, turn the system off and call us.',
-          'If only part of your house is warm, check whether the system is still running and how much air is coming out of each vent.',
+          'Look at the filter, the thermostat and the breaker first. If there’s ice on the lines, turn cooling off and run the fan so it can thaw. If the outdoor fan isn’t spinning, shut the system off and call us.',
+          'If only part of the house is warm, note whether the system’s still running and how much air is coming out of each vent. That tells us a lot when you call.',
         ],
       },
     ],
@@ -319,9 +319,9 @@ export const cityPages: CityPage[] = [
     nearby: ['Lafourche Crossing', 'Schriever', 'Chackbay', 'Kraemer'],
     gallery: [],
     faqs: [
-      { q: 'How often should tenants change the filter?', a: 'Check it every month during the cooling season. In a rental, a filter schedule or having the landlord change it heads off a lot of frozen coils.' },
-      { q: 'Do you cover Schriever and Chackbay?', a: 'Yes. Both are part of our service area around Thibodaux.' },
-      { q: 'Why are my back rooms so much hotter than the front?', a: 'Long or undersized duct runs are a common reason, particularly in older homes that had central air added later. Sun exposure and thin insulation can add to it.' },
+      { q: 'How often should tenants change the filter?', a: 'Every month during cooling season is the safe answer for a rental, since you can’t count on anyone looking at it. Three cheap filters cost a lot less than a service call.' },
+      { q: 'Do you cover Schriever and Chackbay?', a: 'Yes, along with the rest of the Thibodaux area.' },
+      { q: 'Why are my back rooms so much hotter than the front?', a: 'Long or undersized duct runs, in a lot of older homes. The back of the house is the last stop for the air. Sun and thin insulation add to it.' },
     ],
     cta: { heading: 'Need AC service in Thibodaux?', text: 'We cover Thibodaux, Lafourche Crossing and Schriever.' },
   },
