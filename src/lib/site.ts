@@ -10,12 +10,13 @@ export const site = {
   phoneRaw: '+19858706441',
   email: 'premiumairservices1@outlook.com',
   facebook: 'https://www.facebook.com/profile.php?id=61593160182462',
+  street: '170 Ranchland Trace',
   city: 'Lockport',
   state: 'LA',
   zip: '70374',
   parish: 'Lafourche Parish',
-  // Lockport town center.
-  geo: { lat: 29.6466, lng: -90.5393 },
+  // The shop (verified Google profile address; US Census geocoder).
+  geo: { lat: 29.6246, lng: -90.4979 },
   yearsInHvac: 22,
   areaServed: ['Lockport', 'Larose', 'Raceland', 'Houma', 'Thibodaux', 'Galliano', 'Cut Off', 'Golden Meadow', 'Mathews', 'Bayou Cane', 'Bayou Blue', 'Gray', 'Schriever', 'Des Allemands'],
   parishes: ['Lafourche Parish', 'Terrebonne Parish'],

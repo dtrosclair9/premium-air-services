@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="lg:col-span-4">
           <Image src="/images/brand/logo-full-white.svg" alt={`${site.name} logo`} width={853} height={503} className="h-28 w-auto" />
           <a href={`tel:${site.phoneRaw}`} className="mt-6 inline-block font-display text-[24px] font-semibold text-white underline underline-offset-4">{site.phoneDisplay}</a>
-          <p className="mt-2 text-[17px] text-line">{site.city}, Louisiana</p>
+          <p className="mt-2 text-[17px] text-line">{site.street}, {site.city}, Louisiana {site.zip}</p>
           <p className="mt-3 text-[17px]"><a href={site.facebook} target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4">Facebook</a></p>
         </div>
         <div className="lg:col-span-4">

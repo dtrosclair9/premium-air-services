@@ -21,6 +21,7 @@ export function localBusinessSchema() {
     image: abs('/images/og-image.jpg'),
     address: {
       '@type': 'PostalAddress',
+      streetAddress: site.street,
       addressLocality: site.city,
       addressRegion: site.state,
       postalCode: site.zip,

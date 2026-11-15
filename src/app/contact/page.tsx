@@ -40,8 +40,8 @@ export default function ContactPage() {
                 <dd className="mt-1 text-[17px]"><a href={`mailto:${site.email}`} className="link break-all">{site.email}</a></dd>
               </div>
               <div className="py-5">
-                <dt className="text-[14px] font-semibold text-muted">Based in</dt>
-                <dd className="mt-1 text-[17px]">{site.city}, Louisiana {site.zip}</dd>
+                <dt className="text-[14px] font-semibold text-muted">Address</dt>
+                <dd className="mt-1 text-[17px]">{site.street}<br />{site.city}, Louisiana {site.zip}</dd>
               </div>
               <div className="py-5">
                 <dt className="text-[14px] font-semibold text-muted">Service area</dt>
