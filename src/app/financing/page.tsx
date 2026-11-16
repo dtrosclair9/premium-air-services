@@ -70,7 +70,7 @@ export default function FinancingPage() {
           </div>
           <div className="prose-body lg:col-span-7">
             <p>It makes the most sense on bigger jobs, like a full <Link href="/services/ac-installation" className="link">AC replacement</Link>, a heat pump or a new <Link href="/services/heating-repair" className="link">heating system</Link>.</p>
-            <p>Most of the new systems we put in are American Standard, but you can finance any job we do. If you’re weighing a big repair against a new unit, we’ll go over both.</p>
+            <p>We’re an American Standard dealer, so most of the new systems we put in are American Standard, but you can finance any job we do. If you’re weighing a big repair against a new unit, we’ll go over both.</p>
           </div>
         </div>
       </section>

@@ -117,7 +117,7 @@ export const services: ServicePage[] = [
       {
         h2: 'What brand of AC do you install?',
         body: [
-          'American Standard is our main brand, and it’s what we put in on most new systems. We install and work on other brands too, so tell us if you have one in mind.',
+          'We’re an American Standard dealer, and that’s what we put in on most new systems. We install and work on other brands too, so tell us if you have one in mind.',
           'Already have another brand at the house? We can match what you’ve got or go over switching. Either way, the system has to be sized for your house, and that matters more than the name on the unit.',
         ],
       },
@@ -139,7 +139,7 @@ export const services: ServicePage[] = [
       'Dehumidifiers, UV lights and air purifiers',
       'Thermostats, including smart thermostats',
       'Additions, garages and shops',
-      'American Standard systems, plus other brands',
+      'American Standard dealer, plus other brands',
       'Free estimates and financing',
       'Help comparing repair and replacement',
     ],

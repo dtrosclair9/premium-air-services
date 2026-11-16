@@ -44,7 +44,7 @@ export default function AboutPage() {
           </div>
           <div className="prose-body lg:col-span-7">
                         <p>Down here an AC runs through heavy humidity, and a bad storm can leave a house without power for days. We work on those systems every day in Lockport and the towns nearby.</p>
-            <p>We work on central air, heat pumps, gas and electric heat, mini splits and ductwork. American Standard is our main brand for new systems, and we install and work on other brands too. We also offer <Link href="/financing" className="link">financing</Link> through Wells Fargo. Our <Link href="/services" className="link">services page</Link> lists everything, and the <Link href="/service-area" className="link">service area page</Link> shows where we go.</p>
+            <p>We work on central air, heat pumps, gas and electric heat, mini splits and ductwork. We’re an American Standard dealer, and we install and work on other brands too. We also offer <Link href="/financing" className="link">financing</Link> through Wells Fargo. Our <Link href="/services" className="link">services page</Link> lists everything, and the <Link href="/service-area" className="link">service area page</Link> shows where we go.</p>
           </div>
         </div>
       </section>
