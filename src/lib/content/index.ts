@@ -32,4 +32,5 @@ export const inlineLinks: Record<string, string> = {
   'maintenance page': '/services/ac-maintenance',
   'mini split': '/services/mini-split-installation',
   Ductwork: '/services/ductwork-repair',
+  'financing': '/financing',
 }

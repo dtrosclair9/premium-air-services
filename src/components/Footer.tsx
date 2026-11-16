@@ -35,6 +35,7 @@ export default function Footer() {
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
             <li><Link href="/about" className="underline underline-offset-4">About</Link></li>
             <li><Link href="/contact" className="underline underline-offset-4">Contact</Link></li>
+            <li><Link href="/financing" className="underline underline-offset-4">Financing</Link></li>
             <li><Link href="/privacy" className="underline underline-offset-4">Privacy policy</Link></li>
             <li><Link href="/accessibility" className="underline underline-offset-4">Accessibility</Link></li>
             <li>Website by <a href="https://strykora.com" className="underline underline-offset-4">Strykora</a></li>

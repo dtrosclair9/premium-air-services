@@ -111,7 +111,14 @@ export const services: ServicePage[] = [
         h2: 'What affects the cost of a new AC unit?',
         body: [
           'The size of the system, how efficient it is, and whether you’re replacing just the outdoor unit or everything. Moving equipment to a new spot adds to the job, and so does electrical work or bad ducts.',
-          'Your indoor and outdoor equipment have to match. Changing only half of an older system often causes trouble, and with older refrigerants it may not be possible at all. Give us a call about the house and what’s there now. Estimates on new systems are free, and we offer financing.',
+          'Your indoor and outdoor equipment have to match. Changing only half of an older system often causes trouble, and with older refrigerants it may not be possible at all. Give us a call about the house and what’s there now. Estimates on new systems are free, and we offer [financing].',
+        ],
+      },
+      {
+        h2: 'What brand of AC do you install?',
+        body: [
+          'American Standard is our main brand, and it’s what we put in on most new systems. We install and work on other brands too, so tell us if you have one in mind.',
+          'Already have another brand at the house? We can match what you’ve got or go over switching. Either way, the system has to be sized for your house, and that matters more than the name on the unit.',
         ],
       },
       {
@@ -132,6 +139,7 @@ export const services: ServicePage[] = [
       'Dehumidifiers, UV lights and air purifiers',
       'Thermostats, including smart thermostats',
       'Additions, garages and shops',
+      'American Standard systems, plus other brands',
       'Free estimates and financing',
       'Help comparing repair and replacement',
     ],

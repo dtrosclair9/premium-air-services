@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry('/about', 0.6),
     entry('/service-area', 0.6),
     entry('/contact', 0.7),
+    entry('/financing', 0.7),
     entry('/privacy', 0.3, 'yearly'),
     entry('/accessibility', 0.3, 'yearly'),
   ]

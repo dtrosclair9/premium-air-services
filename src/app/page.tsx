@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 import ServiceIndex from '@/components/ServiceIndex'
@@ -46,9 +47,9 @@ const symptoms = [
 const faqs: FAQ[] = [
   { q: 'What areas does Premium Air Services cover?', a: 'We’re based in Lockport and work within about 35 miles, including Larose, Raceland, Galliano, Cut Off, Golden Meadow, Thibodaux and Houma. Not sure about your address? Give us a call.' },
   { q: 'How much does AC repair cost?', a: 'It depends on what failed. A capacitor and a compressor are very different jobs. Call and tell us what the system’s doing, and we’ll go from there.' },
-  { q: 'How much does a new AC unit cost?', a: 'Size, efficiency, the type of system and the shape your ducts are in all change the price. Give us a call about your house. Estimates on new systems are free, and we offer financing.' },
+  { q: 'How much does a new AC unit cost?', a: 'Size, efficiency, the type of system and the shape your ducts are in all change the price. Give us a call about your house. Estimates on new systems are free, and we offer financing through Wells Fargo with approved credit.' },
+  { q: 'What brand of AC do you install?', a: 'American Standard is our main brand. We install and work on other brands too.' },
   { q: 'Do you work on heat pumps and gas heat?', a: 'Yes, along with electric heat strips and central air.' },
-  { q: 'Do you install mini splits?', a: 'Yes. They’re a good fit for additions, garages, shops and rooms your main system can’t reach.' },
   { q: 'Do you work on mobile homes?', a: 'Yes. On many of them the ducts run under the floor, so we check there too.' },
   { q: 'Why is my AC freezing up?', a: 'Weak airflow from a dirty filter or coil is the most common cause, and low refrigerant is another. Turn off the cooling, run the fan to thaw it, and put in a clean filter. If it freezes again, call us.' },
   { q: 'Do you do AC tune-ups?', a: 'Yes, and we offer a yearly maintenance plan. Spring is the best time, before the summer rush.' },
@@ -117,11 +118,38 @@ export default function HomePage() {
             <ul className="list-disc space-y-2 pl-6">
               <li>Emergency and after-hours calls</li>
               <li>Free estimates on new systems</li>
-              <li>Financing available</li>
+              <li><Link href="/financing" className="link">Financing available</Link></li>
               <li>10 years on parts and 2 years on labor</li>
               <li>Yearly maintenance plan</li>
             </ul>
             <p><Link href="/about" className="link">More about Premium Air Services</Link></p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section border-b border-line" aria-labelledby="brand-h">
+        <div className="wrap grid gap-12 lg:grid-cols-2 lg:gap-16">
+          <div>
+            <h2 id="brand-h" className="text-[32px] leading-[1.15] lg:text-[40px]">American Standard is our main brand</h2>
+            <div className="prose-body mt-6">
+              <p>Most of the new AC, heat pump and heating systems we install are American Standard. We install and work on other brands too, so if you’ve got something else at the house, give us a call.</p>
+              <p><Link href="/services/ac-installation" className="link">More about AC installation and replacement</Link></p>
+            </div>
+          </div>
+          <div>
+            <h2 id="fin-h" className="text-[32px] leading-[1.15] lg:text-[40px]">Financing on new systems</h2>
+            <div className="prose-body mt-6">
+              <p>We offer financing through the Wells Fargo Home Projects credit card, with approved credit. Estimates on new systems are free.</p>
+            </div>
+            <Link href="/financing" className="mt-6 inline-block" aria-label="Financing details">
+              <Image
+                src="/images/financing/wells-fargo-special-financing.png"
+                alt="Special financing available. This credit card is issued with approved credit by Wells Fargo Bank, N.A. Equal Housing Lender. Learn more."
+                width={300}
+                height={250}
+                className="h-auto w-[300px] max-w-full"
+              />
+            </Link>
           </div>
         </div>
       </section>
