@@ -38,7 +38,7 @@ export default function Footer() {
             <li><Link href="/financing" className="underline underline-offset-4">Financing</Link></li>
             <li><Link href="/privacy" className="underline underline-offset-4">Privacy policy</Link></li>
             <li><Link href="/accessibility" className="underline underline-offset-4">Accessibility</Link></li>
-            <li>Website by <a href="https://strykora.com" className="underline underline-offset-4">Strykora</a></li>
+            <li>Website by <a href="https://strykora.com" rel="nofollow" className="underline underline-offset-4">Strykora</a></li>
           </ul>
         </div>
       </div>
