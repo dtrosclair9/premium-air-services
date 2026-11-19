@@ -58,7 +58,7 @@ export default async function ServiceRoute({ params }: Params) {
           cta={svc.cta}
           area={{
             heading: cities.length ? `${svc.navLabel} by town` : 'Where we work',
-            text: cities.length ? 'By town:' : `We’re based in ${site.city} and work within about 35 miles.`,
+            text: cities.length ? `Pages for the towns we serve from ${site.city}:` : `We’re based in ${site.city} and work within about 35 miles.`,
             links: cities.map((c) => ({ label: c.h1, href: `/services/${c.slug}` })),
             towns: defaultTowns.filter((t) => t !== site.city),
           }}
