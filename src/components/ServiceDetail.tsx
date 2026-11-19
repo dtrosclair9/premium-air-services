@@ -52,6 +52,7 @@ export default function ServiceDetail(p: Props) {
           {(p.gallery.length > 0 || p.videos?.length) && (
             <section className="mt-12 border-t border-line pt-12" aria-labelledby="work-h">
               <h2 id="work-h" className="mb-6 text-[32px] leading-[1.15] lg:text-[40px]">A look at some of our work</h2>
+              <p className="-mt-2 mb-8 max-w-3xl text-[18px] leading-[1.6]">Photos and short videos from Premium Air jobs.</p>
               {p.videos?.length ? <div className={p.gallery.length ? 'mb-8' : ''}><VideoGrid videos={p.videos} /></div> : null}
               {p.gallery.length > 0 && <PhotoStrip paths={p.gallery} />}
             </section>
